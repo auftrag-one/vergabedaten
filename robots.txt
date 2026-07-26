@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://auftrag-one.github.io/vergabedaten/sitemap.xml
