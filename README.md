@@ -16,3 +16,8 @@ See [DATA-LICENSE.md](DATA-LICENSE.md) for the exact scope and preferred credit.
 The data license does not cover the Auftrag One product, software, website,
 names, logos, trademarks, or other material that is not explicitly marked as a
 data publication.
+
+Published aggregates are informational, not an official procurement register
+or legal, procurement, or business advice. Verify decisions against the
+original notice and responsible contracting authority. Warranty and liability
+terms are stated in [DATA-LICENSE.md](DATA-LICENSE.md).

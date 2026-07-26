@@ -661,6 +661,40 @@ nav a:hover,
   font-size: 14px;
 }
 
+.safety-note {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: 0.55fr 0.95fr 1.5fr;
+  gap: 28px;
+  margin-top: 18px;
+  padding: 30px;
+  border: 1px solid var(--border-dark-strong);
+  background: var(--ink-raised);
+}
+
+.safety-note .status-label {
+  margin-top: 3px;
+}
+
+.safety-note h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.safety-note p {
+  margin: 0;
+  color: var(--on-ink-muted);
+  font-size: 13px;
+}
+
+.safety-note p + p {
+  margin-top: 12px;
+}
+
 .license-section {
   padding: 120px 0;
   background: var(--paper);
@@ -782,6 +816,10 @@ footer {
   .hero-layout,
   .method-layout,
   .license-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .safety-note {
     grid-template-columns: 1fr;
   }
 
@@ -907,6 +945,10 @@ footer {
   .method-layout,
   .license-layout {
     gap: 48px;
+  }
+
+  .safety-note {
+    padding: 24px;
   }
 
   .closing {

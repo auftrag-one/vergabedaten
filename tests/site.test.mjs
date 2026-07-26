@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const INDEX_PATH = new URL("../index.html", import.meta.url);
+const DATA_LICENSE_PATH = new URL("../DATA-LICENSE.md", import.meta.url);
 
 async function pageHtml() {
   return readFile(INDEX_PATH, "utf8");
@@ -57,4 +58,25 @@ test("provides the static page landmarks needed for keyboard and mobile use", as
   assert.match(html, /<main[^>]+id="main-content"/);
   assert.match(html, /<section[^>]+id="daten"/);
   assert.match(html, /<footer/);
+});
+
+test("warns readers to verify official sources instead of treating aggregates as advice", async () => {
+  const html = await pageHtml();
+
+  assert.match(
+    html,
+    /keine Rechts-, Vergabe- oder\s+Geschäftsberatung/i,
+  );
+  assert.match(html, /kein amtliches Vergaberegister/i);
+  assert.match(html, /Originalbekanntmachung/i);
+  assert.match(html, /zuständigen Vergabestelle/i);
+});
+
+test("keeps the data warranty disclaimer within mandatory law", async () => {
+  const notice = await readFile(DATA_LICENSE_PATH, "utf8");
+
+  assert.match(notice, /as-is and\s+as-available/i);
+  assert.match(notice, /to the extent permitted by applicable law/i);
+  assert.match(notice, /mandatory liability remains unaffected/i);
+  assert.match(notice, /not\s+legal, procurement, or business advice/i);
 });
