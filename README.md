@@ -21,3 +21,10 @@ Published aggregates are informational, not an official procurement register
 or legal, procurement, or business advice. Verify decisions against the
 original notice and responsible contracting authority. Warranty and liability
 terms are stated in [DATA-LICENSE.md](DATA-LICENSE.md).
+
+## Publication gate
+
+Every data release must pass the source-rights and privacy checks described in
+[PUBLICATION-RULES.md](PUBLICATION-RULES.md). Releases without documented
+provenance, affirmative rights review, aggregate-only confirmation, or a
+complete file manifest fail validation.

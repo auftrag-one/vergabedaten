@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "publicationId": "YYYY-MM",
+  "title": "Vergabedaten YYYY-MM",
+  "publishedAt": "YYYY-MM-DD",
+  "license": "CC-BY-4.0",
+  "licensor": "Debevet UG (haftungsbeschränkt)",
+  "attribution": {
+    "name": "Auftrag One",
+    "url": "https://auftragone.com"
+  },
+  "sources": [
+    {
+      "name": "Original source",
+      "url": "https://example.invalid/source",
+      "retrievedAt": "YYYY-MM-DD",
+      "reuseTermsUrl": "https://example.invalid/reuse-terms",
+      "rightsReviewed": false
+    }
+  ],
+  "privacyReview": {
+    "completed": false,
+    "containsPersonalData": true,
+    "aggregateOnly": false,
+    "directIdentifiersRemoved": false,
+    "smallCellRiskReviewed": false
+  },
+  "files": [
+    "replace-with-reviewed-data.csv"
+  ]
+}

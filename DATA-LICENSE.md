@@ -1,8 +1,12 @@
 # License for data publications
 
+Auftrag One is a brand of Debevet UG (haftungsbeschränkt), Lauterstraße 12,
+12159 Berlin, Germany. In this notice, Licensor means Debevet UG
+(haftungsbeschränkt), operating under the brand Auftrag One.
+
 ## Covered material
 
-To the extent Auftrag One holds copyright or database rights, datasets in this
+To the extent the Licensor holds copyright or database rights, datasets in this
 repository that expressly refer to this notice are licensed under the
 [Creative Commons Attribution 4.0 International License][cc-by] (CC BY 4.0).
 
@@ -19,7 +23,7 @@ Preferred attribution:
 This license does not apply to the Auftrag One product, software, APIs, website,
 documentation, names, logos, trademarks, designs, or any material that is not
 expressly identified as a licensed data publication. All rights in those
-materials are reserved.
+materials are reserved by the Licensor.
 
 Third-party material and facts that are not protected by copyright or database
 rights are not made subject to new restrictions by this notice. Attribution
@@ -33,7 +37,7 @@ register. Before making a decision, verify the relevant original notice and
 information from the responsible contracting authority.
 
 Unless separately agreed in writing, covered data is offered as-is and
-as-available. To the extent permitted by applicable law, Auftrag One makes no
+as-available. To the extent permitted by applicable law, the Licensor makes no
 representation or warranty about accuracy, completeness, timeliness, fitness
 for a particular purpose, or absence of errors, and accepts no liability arising
 from use of the covered data. Mandatory liability remains unaffected.
